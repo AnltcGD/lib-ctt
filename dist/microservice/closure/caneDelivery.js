@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const helper_1 = require("../../helper/helper");
 //TODO: Remove this when the new unit codes are fully integrated
 const UNIT_MONTH_CANE_DELIVERY_GOAL_MAP = {
-    112: 107455,
-    115: 148112,
-    127: 114570,
+    112: 372000,
+    115: 537800,
+    127: 163680,
 };
 //TODO: Remove this when the new unit codes are fully integrated
 const UNIT_HARVEST_CANE_DELIVERY_GOAL_MAP = {
