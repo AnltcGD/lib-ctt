@@ -86,9 +86,10 @@ const formatPerformanceIndicatorsWorkFronts = (
 
     const totalHourmeter = workFrontEfficiency.hourmeter.totalHourMeter;
 
-  const offenderTime = unproductiveTotalTime + maintenanceTimeInNumber; 
-  
-  const ctOffenders = offenderTime * tonPerHour;
+
+    const offenderTime = unproductiveTotalTime;
+
+    const ctOffenders = offenderTime * tonPerHour;
 
     const tOffenders = trucksLackTotalTime * tonPerHourGoalByTractor;
 

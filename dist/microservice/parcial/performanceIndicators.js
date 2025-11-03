@@ -32,7 +32,7 @@ const formatPerformanceIndicatorsWorkFronts = (workFrontJourneyMap, workFrontJou
             goal: AUTOPILOT_USE_GOAL,
         };
         const totalHourmeter = workFrontEfficiency.hourmeter.totalHourMeter;
-        const offenderTime = unproductiveTotalTime + maintenanceTimeInNumber;
+        const offenderTime = unproductiveTotalTime;
         const ctOffenders = offenderTime * tonPerHour;
         const tOffenders = trucksLackTotalTime * tonPerHourGoalByTractor;
         const agriculturalEfficiency = {
