@@ -4,6 +4,7 @@ export interface MonitoringCenterAvailabilityWorkFrontData {
   availability?: number | null;
   available?: number | null;
   unavailable?: number | null;
+  workFrontName?: string | null;
 }
 
 export interface MonitoringCenterAvailabilityGroupData {

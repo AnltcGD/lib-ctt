@@ -16,11 +16,18 @@ const createAvailabilityAllocation = async (
     const { group, workFronts } = groupData;
 
     const formattedWorkFrontsData = workFronts.map((workFront) => {
-      const { workFrontCode, allocated, availability, available, unavailable } =
-        workFront;
+      const {
+        workFrontCode,
+        allocated,
+        availability,
+        available,
+        unavailable,
+        workFrontName,
+      } = workFront;
 
       return {
         workFrontCode,
+        workFrontName,
         allocated: allocated || 0,
         equipments: (available || 0) + (unavailable || 0),
         unavailable: unavailable || 0,
