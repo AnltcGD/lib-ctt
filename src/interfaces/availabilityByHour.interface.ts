@@ -1,4 +1,3 @@
-
 export interface HoursValue {
   hour: string;
   value?: number | null;
@@ -6,6 +5,7 @@ export interface HoursValue {
 
 export interface CttAvailabilityWorkFrontData {
   workFrontCode: number;
+  workFrontName?: string;
   equipments: number;
   average: number;
   hours: HoursValue[];
