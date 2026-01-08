@@ -20,6 +20,7 @@ export interface MonitoringCenterAvailability {
 
 interface AvailabilityAndAllocationWorkFrontData {
   workFrontCode: number;
+  workFrontName?: string | null;
   allocated: number;
   equipments: number;
   unavailable: number;
