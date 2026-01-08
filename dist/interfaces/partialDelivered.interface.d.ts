@@ -1,6 +1,7 @@
 export type CttTon = Record<string, number>;
 export interface CttWorkFronts {
     code: number;
+    name: string;
     goal: number;
 }
 export interface EquipmentAllocation {
